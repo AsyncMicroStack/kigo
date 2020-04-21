@@ -8,7 +8,6 @@ Kigo
 
     A high performance event microservices framework for Python that lets service developers concentrate on application and testability.
 
-
 .. code-block:: python
 
     # helloworld.py
@@ -22,6 +21,9 @@ Kigo
         def echo(self, say):
             return "Hello, {}!".format(say)
 
+    if __name__ == '__main__':
+        service = EchoService()
+        service.run()
 
 License
 -------
