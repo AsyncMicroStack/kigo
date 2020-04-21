@@ -8,6 +8,21 @@ Kigo
 
     A high performance event microservices framework for Python that lets service developers concentrate on application and testability.
 
+
+.. code-block:: python
+
+    # helloworld.py
+
+    from kigo.rpc import Consumer, rpc
+
+    @Consumer()
+    class EchoService:
+
+        @rpc
+        def echo(self, say):
+            return "Hello, {}!".format(say)
+
+
 License
 -------
 
