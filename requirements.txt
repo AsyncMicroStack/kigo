@@ -1,0 +1,14 @@
+coloredlogs 
+aiormq 
+pamqp 
+yarl 
+sanic 
+ujson 
+uvloop 
+sanic-openapi 
+sanic-opentracing
+sanic-prometheus 
+asyncpg
+aioredis
+pyyaml
+aiohttp
