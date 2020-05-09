@@ -1,0 +1,6 @@
+logging:
+  level: "info"
+  console: True
+  colour: True
+pool:
+  PostgreSQL: ""
